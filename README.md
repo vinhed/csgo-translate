@@ -5,6 +5,9 @@ This program translates messages sent in the game Counter-Strike: Global Offensi
 
 ## Installation
 
+Requires Windows 10 or above<br>
+Requires Python3 or above
+
 #### Requirements
 ```
 unicodedata
@@ -16,6 +19,7 @@ threading
 ```
 
 To enable console logging in CSGO, write `con_logfile conlog.log` in the CSGO console. This will create a file at `..\steamapps\common\Counter-Strike Global Offensive\csgo\conlog.log` which logs your console.
+Alternatively place `con_logfile conlog.log` in your autoexec.cfg file.
 
 
 ## Usage
@@ -42,11 +46,12 @@ Ex. `true/false`
 
 ### Retrieving Messages
 All messages sent in the gamechat will be translated and output in the program console.<br>
-Ex. `<Russian> vinhed: How are you?`<br>
-![](https://raw.githubusercontent.com/vinhed/csgo-translate/main/images/RetrieveMessages.jpg?token=GHSAT0AAAAAABYYZIHL6BO3FV73R4TBFKNEYZCEJZQ)
+Ex. `Как дела?`<br>
+Out. `<Russian> USER: How are you?`<br><br>
+![](https://github.com/vinhed/csgo-translate/blob/main/images/RetrieveMessages.jpg)
 
 ### Sending Messages
 To send translated messages in the gamechat, use the syntax `:TO_LANGUAGE_CODE MESSAGE` in the gamechat.<br>
 Ex. `:ru Hello, how are you?`<br>
-Out. `Привет, как дела?`<br>
-![](https://raw.githubusercontent.com/vinhed/csgo-translate/main/images/SendMessages.jpg?token=GHSAT0AAAAAABYYZIHLKKW24LEXPDHLPAJIYZCEKFA)
+Out. `Привет, как дела?`<br><br>
+![](https://github.com/vinhed/csgo-translate/blob/main/images/SendMessages.jpg)
