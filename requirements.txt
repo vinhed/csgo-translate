@@ -1,0 +1,6 @@
+unicodedata
+googletrans
+time
+pydirectinput
+pyperclip
+threading
