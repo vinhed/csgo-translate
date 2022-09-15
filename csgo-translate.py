@@ -108,9 +108,9 @@ class CSGOTranslate:
 
 if __name__ == '__main__':
     config = {
-        'username': "vinhed",
+        'username': "USERNAME",
         'language': "en",
-        'console_path': "E:\\SteamLibrary\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\conlog.log",
+        'console_path': "...\\steamapps\\common\\Counter-Strike Global Offensive\\csgo\\conlog.log",
         'auto_send': "True"
     }
 
